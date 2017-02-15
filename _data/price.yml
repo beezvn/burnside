@@ -1,0 +1,60 @@
+groups:
+- group:
+  description: Shellac
+  subTitles:
+    - name:
+  items:
+    - name: Manicure With Shellac
+      description:
+      price: $35
+      image:
+
+- group:
+  description: Manicure & Pedicure
+  subTitles:
+    - name:
+  items:
+    - name: Manicure
+      description:
+      price: $20
+      image:
+
+- group:
+  description: Acrylic & Gel Nails
+  subTitles:
+  - name:
+  items:
+  - name: Full Set French White Powder
+    description:
+    price: $45
+    image:
+
+- group:
+  description: TINT
+  subTitles:
+  - name:
+  items:
+  - name: Lash Tint
+    description:
+    price: $20
+    image:
+
+- group:
+  description: SNS Health Natural Nails
+  subTitles:
+  - name:
+  items:
+  - name: Full Set Clear
+  description:
+  price: $45
+  image:
+
+- group:
+  description: Waxing
+  subTitles:
+  - name:
+  items:
+  - name: Full leg
+    description:
+    price: $38
+    image:
