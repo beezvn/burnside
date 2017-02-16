@@ -5,10 +5,10 @@
 <title>{{ page.title }}</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/assets/w3.css">
-<link rel="stylesheet" href="/assets/custom.css">
-<link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
-<script src="/assets/jquery-3.1.1.min.js"></script>
+<link rel="stylesheet" href="/burnside/assets/w3.css">
+<link rel="stylesheet" href="/burnside/assets/custom.css">
+<link rel="stylesheet" href="/burnside/assets/font-awesome/css/font-awesome.min.css">
+<script src="/burnside/assets/jquery-3.1.1.min.js"></script>
 </head>
 
 <body>
@@ -32,7 +32,7 @@
     </ul>
   </div>
   <div class="w3-padding-small w3-hide-small">
-    <img src="/assets/images/banner_large02.png" class="w3-round" alt="main" width="100%" height="400px">
+    <img src="/burnside/assets/images/banner_large02.png" class="w3-round" alt="main" width="100%" height="400px">
   </div>
 </div>
 
