@@ -1,12 +1,14 @@
 ---
 layout: master
 title: Burnside Nails and Spa Beauty Salon
+services: services.md
+pricing: price.md
 ---
 <!-- Page content -->
 <div class="w3-content" style="max-width:1100px">
 
   <!-- About Section -->
-  <div class="w3-row" id="services">
+  <div class="w3-row" id="about">
     <div class="w3-col l6">
       <div class="w3-col m6">
       <img src="/assets/images/aboutus01.png" class="w3-round w3-image w3-right" alt="about us" width="200" height="200">
@@ -34,17 +36,20 @@ title: Burnside Nails and Spa Beauty Salon
   </div>
 
   <hr>
+  <!-- Services -->
+  {% include {{ page.services }} %}
+  <hr>
 
-  <!-- Serices Section -->
-  <div class="w3-row w3-padding-32" id="services">
-    <div class="w3-col l6 w3-padding-large w3-center">
-      <h2>Our services</h2>
+  <!-- Price -->
+  <div class="w3-row w3-padding-32" id="priceList">
+    <div class="w3-center">
+        <h4> Best Deals </h4>
+        <h1 style="font-size:50px; color:#5d5b5b;">Special Pricing</h1>
     </div>
-    <div class="w3-col l6 w3-padding-large">
-      <img src="/assets/images/chichencashew.jpg" class="w3-round w3-image" alt="Menu" width="500" height="750">
+    <div class="w3-center">      
+      <a href="#priceList" class="w3-btn-floating-large w3-teal" onclick="$('#priceModal').show();">+</a>
     </div>
   </div>
-
   <hr>
 
   <!-- specials -->
@@ -78,14 +83,15 @@ title: Burnside Nails and Spa Beauty Salon
   </div>
 
    <hr style="font-weight:bold">
-
+   <!--Reviews-->
    <div class="w3-row w3-padding-32" id="reviews">
-   <div class="w3-col l7 w3-padding-large">
-   <img src="/assets/images/truelocal.png" class="w3-round w3-image" alt="Menu" width="800" height="750">
+   <div class="w3-col l12">
+    <h1 class="w3-center">Feature in CliqueMag</h1><br>
+   <img src="/assets/images/clique.png" class="w3-round w3-image" alt="Menu" width="auto" height="750">
    </div>
-    <div class="w3-col l5 w3-padding-large" style="box-shadow: 5px 5px 2px #888888">
+    <div class="w3-col l12">
 	 <h1 class="w3-center">Reviews</h1><br>
-    <img src="/assets/images/truelocalReviews.png" class="w3-round w3-image" alt="Menu" width="400" height="750">
+    <img src="/assets/images/yelp.png" class="w3-round w3-image w3-right dropShadow" alt="Menu" width="auto" height="750">
    </div>
 
   </div>
@@ -97,15 +103,17 @@ title: Burnside Nails and Spa Beauty Salon
   <div class="w3-col l6 w3-padding-large">
    <h1 class="w3-center">Contact us</h1><br>  
 	<ul class="w3-ul w3-card-4">
-    <li><h4>Business Hours</h4></li>
-            <li>Lunch : Mon - Fri : 11h30 - 2h30 pm</li>
-            <li>Dinner:  <br>
-			Sun - Thurs : 5pm - 9h30  pm <br>
-			Fri - Sat   : 5pm - 10h30 pm </li>            
-            <li>251 High Street, Penrith, NSW 2750 </li>
-            <li>Phone:  (02) 4732 2362 </li>
-            <li>Mobbile: 04 2212 8165 </li>
-            <li>Email: aroydthai@aroyd.com.au</li>
+    <li><h4>OPENING HOURS</h4></li>            
+            <li>
+            Monday - Friday: 9am - 5:30pm <br>
+            Thursday: 9am - 9pm <br>
+            Saturday: 9am - 5pm <br>
+            Sunday : 11am - 9pm
+            </li>            
+            <li>Shop 5, 384-390 Greenhill Road, Glenside, SA, 5065</li>
+            <li>Phone:  (08) 8338 6616 </li>
+            <li>After hours: 0488896868 </li>
+            <li>Email: contactus@burnsidenailsandspa.com</li>
 	</ul>
   </div>
 
@@ -113,9 +121,8 @@ title: Burnside Nails and Spa Beauty Salon
 <iframe
   width="500"
   height="450"
-  frameborder="0" style="border:0"
-  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyALt8P7E-i6V5nzptu0FdhA_sf0foRG7tk&q=251+High+St,+Penrith+NSW+2750" allowfullscreen>
-</iframe>
+ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3270.6807033849914!2d138.63965131617968!3d-34.939543980374005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab0cc03d6f8be51%3A0x894fea0e6a9342d!2sBurnside+Nails+And+Spa!5e0!3m2!1sen!2sau!4v1487130580377" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 </div>  
 
 <!-- End page content -->

@@ -10,6 +10,23 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
+
+      {% for g in site.data.price.groups %}
+      <h2>{{g.description}}</h2> {% for title in g.subTitles %}
+      <h6>{{title.name}}</h6> {% endfor %}
+      <ul>
+          <!--each item-->
+          {% for item in g.items %} {% assign price = {{item.price}}|lstrip %}
+          <li>{{item.name}} <span class="w3-right">{% if price != '' %}  {{price}} {% endif %} </span>
+          <br>
+          <span style="font-size:18px;">{{item.description}}</span>
+          </li>
+          {% endfor %}
+      </ul>
+      {% endfor %}
+
+
+
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
