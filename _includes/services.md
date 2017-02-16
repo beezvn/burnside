@@ -52,7 +52,7 @@
 </div>
 
 <!-- Services Modal -->
-<div id="servicesModal" class="w3-modal">
+<div id="servicesModal" class="w3-modal ">
     <div class="w3-modal-content w3-animate-zoom" style="width:50%">
         <div class="w3-container">
             <span onclick="$('#servicesModal').hide();" class="w3-closebtn">&times;</span>

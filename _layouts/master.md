@@ -25,7 +25,7 @@
       <a href="#" class="w3-left"><i class="fa fa-home" aria-hidden="true"></i></a>
       <a href="#about" class="w3-left">About us</a>
       <a href="#services" class="w3-left">Services</a>
-      <a href="#special" class="w3-left">Specials</a>
+      <a href="#specials" class="w3-left">Specials</a>
       <a href="#priceList" class="w3-left" onclick="$('#priceModal').show();">Price list</a>
       <a href="#contact" class="w3-left w3-margin-right">Contact</a>
     </li>
@@ -53,7 +53,8 @@
 
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-12">
-  <p><i class="fa fa-copyright" aria-hidden="true"></i>Burnside nails and spa beauty salon - Burnside, South Australia</p>
+  <p><i class="fa fa-copyright" aria-hidden="true"></i> Burnside nails and spa beauty salon - South Australia</p>
+  <p>Shop 5, 384-390 Greenhill Road, Glenside, SA, 5065</p>
 </footer>
   {% include {{ page.pricing }} %}
 
