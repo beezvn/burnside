@@ -177,8 +177,8 @@ groups:
 
 - group:
   description: SNS Health Natural Nails
-  subTitles: SNS Natural Nail Systems
-  - name:
+  subTitles:
+  - name: SNS Natural Nail Systems
   items:
   - name: Full Set Clear
     description:
@@ -196,10 +196,11 @@ groups:
     description:
     price: $45
     image:
-  - name:
+  - name: 
     description: Coffin Shape, Pointing Shape Extra
     price: $5
     image:
+
 
 - group:
   description: Waxing
