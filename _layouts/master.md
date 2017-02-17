@@ -32,7 +32,7 @@
     </ul>
   </div>
   <div class="w3-padding-small w3-hide-small">
-    <img src="/burnside/assets/images/banner_large02.png" class="w3-round" alt="main" width="100%" height="400px">
+    <img src="/burnside/assets/images/banner_large04.png" class="w3-round" alt="main" width="100%" height="400px">
   </div>
 </div>
 
