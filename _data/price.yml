@@ -185,17 +185,17 @@ groups:
     price: $45
     image:
   - name: Full Set Colour
-      description:
-      price: $50
-      image:
+    description:
+    price: $50
+    image:
   - name: Full Set French (White & Pink)
-      description:
-      price: $50
-      image:
+    description:
+    price: $50
+    image:
   - name: Overlay SNS (Full Colour)
-      description:
-      price: $45
-      image:
+    description:
+    price: $45
+    image:
 
 - group:
   description: Waxing
