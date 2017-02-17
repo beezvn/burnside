@@ -177,24 +177,28 @@ groups:
 
 - group:
   description: SNS Health Natural Nails
-  subTitles:
+  subTitles: SNS Natural Nail Systems
   - name:
   items:
   - name: Full Set Clear
     description:
-    price: $45
+    price: $50
     image:
   - name: Full Set Colour
     description:
-    price: $50
+    price: $55
     image:
   - name: Full Set French (White & Pink)
     description:
-    price: $50
+    price: $60
     image:
   - name: Overlay SNS (Full Colour)
     description:
     price: $45
+    image:
+  - name:
+    description: Coffin Shape, Pointing Shape Extra
+    price: $5
     image:
 
 - group:
