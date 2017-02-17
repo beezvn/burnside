@@ -9,7 +9,7 @@
   <p>Maintenance – Fill-ins are needed as new nail growth begins to show.
   We thoroughly inspect the nail and acrylic before applying a fill.
   Damage or lifting can be repaired when needed</p>"
-  image: "/burnside/assets/images/services/nails01.png"
+  image: "/assets/images/services/nails01.png"
 
 - name: Pedicure Service
   id: Pedicure
@@ -19,22 +19,22 @@
   This process is exfoliation. A pumice stone or foot file is used at this time in conjunction with the scrub in order to remove or at least smooth calluses.
   Then cream and oil will be applied to massage your feet and your legs up to but not past your knees.
   One every week to two weeks is recommended.</p>"
-  image: "/burnside/assets/images/services/nails04.png"
+  image: "/assets/images/services/nails04.png"
 
 - name: Manicure Service
   id: Manicure
   description: "<p>Manicure came from the Latin word Manus meaning hands and, again cura, meaning care. So manicure is the care of the hands. In a manicure your fingernails are trimmed (if desired), soaked in a finger bowl with warm soapy water, filed, and ridges are buffed off the surface of the nail. The cuticles are softened, pushed back, and possibly removed. Dirt is cleaned out from under the free edge (the part that hangs over and extends beyond your fingers) of your nails and brushed with a nail brush. As is the surface of your nails. A hand massage is performed with lotion and in some cases an arm massage too. Then fingernails are painted with a base coat, two coats of desired color, and a top coat. That's a basic manicure.</p>"
-  image: /burnside/assets/images/services/nails03.png
+  image: /assets/images/services/nails03.png
 
 - name: Gel Nails Service
   id: Gelnails
   description: "<p>UV Gel nails are a type of synthetic nail that allows nails to appear longer and stronger. UV Gel nails are made of a special odorless gel applied to the natural nail and then dried with an ultraviolet light -- thus the name UV Gel. Once the UV process is complete, the nails can be painted and decorated to fit your taste and preference.</p><p class=\"subTitle\">Refill</p><p>After 2/3weeks, as new nails grow, they need to be filled, which is the application of product between your nail cuticle and the grow-out portion of your artificial nail. This service also includes repairing of any cracks, breakage or lifting of the nail product, and fresh application of polish.</p>"
-  image: "/burnside/assets/images/services/nails02.png"
+  image: "/assets/images/services/nails02.png"
 
 - name: Shellac Service
   id: Shellac
   description: "<p>Shellac is the brand name for a new, patent pending nail product created by Creative Nail Design. It is a hybrid, meaning half nail polish, half gel. The product is thin and strong enough to be applied similarly to nail polish, but it is cured in a way that gives it great flexibility and durability. It also has the incredible shine associated only with gel nails.</p><p>Who is Shellac best suited for? Shellac is for people who want to maintain natural nails. The formulation looks as good from day 1 to day 14, but does not appear to damage nail beds.</p>"
-  image: "/burnside/assets/images/services/nails05.png"
+  image: "/assets/images/services/nails05.png"
 
 - name: Tint Service
   id: Tint
@@ -47,9 +47,9 @@
   <li>Do not wear eye makeup for at least 8 hr following the eyebrow shaping treatment.</li>
   <li>Do not rub the eye area</li><li>Do not get the area sunburnt</li>
   <li>Do not use highly perfumed creams on the area for at least 24hr</li></ul>"
-  image: "/burnside/assets/images/services/nails06.png"
+  image: "/assets/images/services/nails06.png"
 
 - name: Waxing Service
   id: Waxing
   description: "<p class=\"subTitle\">Before Care:</p><ul><li>Hair needs to be about least half a centimeter so that the wax can grip the hair.</li><li>No make-up to the appointment if facial treatments are to be performed</li><li>Lightly exfoliate the area that is to be waxed.</li><li>If you are waxing for a big event, such as a honeymoon, we advise that you get your first brazilian wax done about 4 weeks before your wedding, and then get a touch-up done a few days before your wedding.</li><li>Avoid tanning for at least a week before getting waxed.</li>  </ul><p>Follow the After Care instructions that will be given to you by your aesthetician during your appointment.</p><ul><li>Do not plan a social engagement for immediately after the treatment.</li><li>Avoid prior sun exposure for 24 hr.</li><li>Do not swim for 24hr.</li><li>Do not use makeup for 4-12hr.</li><li>Moisturise after showering but do not use perfumed lotions.	</li><li>Timeframe for next appointment.</li><li>Leg 4 to 6 weeks,  Underarm 3-4 weeks and Face 3-4 weeks.</li></ul>"
-  image: "/burnside/assets/images/services/waxing.png"
+  image: "/assets/images/services/waxing.png"
