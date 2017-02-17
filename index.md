@@ -115,7 +115,6 @@ pricing: price.md
 	 <h1 class="w3-center">Reviews</h1><br>
     <img src="/burnside/assets/images/yelp.png" class="w3-round w3-image w3-right dropShadow" alt="Menu" width="auto" height="750">
    </div>
-
   </div>
 
   <hr>
