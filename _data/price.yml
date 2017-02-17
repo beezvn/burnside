@@ -181,19 +181,18 @@ groups:
   - name:
   items:
   - name: Full Set Clear
-  description:
-  price: $45
-  image:
-  items:
-    - name: Full Set Colour
+    description:
+    price: $45
+    image:
+  - name: Full Set Colour
       description:
       price: $50
       image:
-    - name: Full Set French
+  - name: Full Set French (White & Pink)
       description:
       price: $50
       image:
-    - name: White & Pink / Overlay SNS (Full Colour)
+  - name: Overlay SNS (Full Colour)
       description:
       price: $45
       image:

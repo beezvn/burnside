@@ -1,4 +1,4 @@
-!-- Pricing Modal -->
+<!-- Pricing Modal -->
 <div id="priceModal" class="w3-modal ">
     <div class="w3-modal-content w3-animate-zoom" style="width:50%">
         <div class="w3-container w3-padding-large">
