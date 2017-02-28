@@ -83,25 +83,13 @@ pricing: price.md
     <img src="{{ site.url }}/assets/images/specials04.png" class="w3-round w3-image" alt="Menu" width="600" height="500">
    </div>
 
-   <div class="w3-col l6">
+   <div class="w3-col l6 w3-right">
     <!-- Specials deals-->
-    <div class="w3-row w3-center dropShadow" height="500">
-      <div class="w3-col m6 w3-padding-large specialItems borderRight">
-      <h4>Special 1</h4>
-      </div>
-      <div class="w3-col m6  w3-padding-large specialItems">
-        <h4>Special 1</h4>
-      </div>
-      <div class="w3-col m6  w3-padding-large specialItems borderRight">
-      <h4>Special 1</h4>
-      </div>
-      <div class="w3-col m6  w3-padding-large specialItems">
-        <h4>Special 1</h4>
-      </div>
-    </div>
-
+    <div class="w3-row w3-padding-xlarge" height="500">
+      <h2> Coming soon ... </h2>
    </div>
 
+  </div>
   </div>
 
    <hr style="font-weight:bold">
