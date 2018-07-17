@@ -3,12 +3,38 @@ layout: master
 title: Burnside Nails and Spa Beauty Salon
 services: services.md
 pricing: price.md
+
 ---
 <!-- Page content -->
 <div class="w3-content" style="max-width:1100px">
 
+  <!-- specials -->
+  <div class="w3-row w3-padding-32" id="specials">
+    <div class="w3-col w3-right  w3-padding-large">
+      <h2 class="w3-center"> </h2>
+    </div>
+
+   <div class="w3-col l8">
+    <!-- Specials deals-->
+      <div class="w3-row w3-padding-xlarge" height="500">
+        <span style="font-size:20px; text-align:justify">
+          {{ site.data.specials.announcement }}
+        </span>
+      </div>
+   </div>
+
+   <div  class="w3-col l4 w3-right">
+    <img src="{{ site.url }}/assets/images/newshop01.png" class="w3-round w3-image w3-right" alt="about us" width="400" height="400">
+    <img src="{{ site.url }}/assets/images/newshop02.png" class="w3-round w3-image w3-right" alt="about us" width="400" height="400">   
+    </div>
+
+  </div>
+
+   <hr style="font-weight:bold">
+
   <!-- About Section -->
-  <div class="w3-row" id="about">
+  <div class="w3-row w3-padding-32" id="specials">
+
     <div class="w3-col l6">
       <div class="w3-col m6">
       <img src="{{ site.url }}/assets/images/aboutus01.png" class="w3-round w3-image w3-right" alt="about us" width="200" height="200">
@@ -23,17 +49,21 @@ pricing: price.md
       <img src="{{ site.url }}/assets/images/aboutus02.png" class="w3-round w3-image" alt="about us" width="200" height="200">
       </div>
     </div>
-    <div class="w3-col l1" style="padding-left:10px;" >
-    <div class="vertical-text">
-      <h2>ABOUT US</h2>
+
+   <div class="w3-col l6 w3-right">
+       <div class="w3-col w3-right  w3-padding-large">
+      <h2 class="w3-center">ABOUT US </h2>
     </div>
-    </div>
-    <div class="w3-col l5">
+      <div class="w3-row w3-padding-xlarge" height="500">
     <span style="font-size:20px; text-align:justify">
-    Our spa treatments are designed for specific needs on your hands and feet. We are eco-friendly and health-conscious salon. Every single element inside Nail Service has been carefully tested for glowing result before bringing to you. Our goal is to provide the healthiest and longest lasting result at affordable price. We have gone as far as using certified organic ingredients for our lotion and scrubs. Natural ingredients of herbs, citruses and essential oils are commonly used in our salon. All services are attentive and include thorough massage.
+      {{ site.data.aboutus }}
     </span>
     </div>
+    </div>
   </div>
+
+   <hr style="font-weight:bold">
+
 
   <hr>
   <!-- Services -->
@@ -74,25 +104,6 @@ pricing: price.md
   </div>
   <hr>
 
-  <!-- specials -->
-  <div class="w3-row w3-padding-32" id="specials">
-    <div class="w3-col w3-right  w3-padding-large">
-      <h2 class="w3-right">Packages & Specials </h2>
-    </div>
-    <div class="w3-col l6">
-    <img src="{{ site.url }}/assets/images/specials04.png" class="w3-round w3-image" alt="Menu" width="600" height="500">
-   </div>
-
-   <div class="w3-col l6 w3-right">
-    <!-- Specials deals-->
-    <div class="w3-row w3-padding-xlarge" height="500">
-      <h2> Coming soon ... </h2>
-   </div>
-
-  </div>
-  </div>
-
-   <hr style="font-weight:bold">
    <!--Reviews-->
    <div class="w3-row w3-padding-32" id="reviews">
    <div class="w3-col l12">
@@ -120,6 +131,7 @@ pricing: price.md
             Sunday : 11am - 9pm
             </li>            
             <li>Shop 5, 384-390 Greenhill Road, Glenside, SA, 5065</li>
+            <li>Shop 2, 398 Greenhill Road, Glenside, SA 5065</li>
             <li>Phone:  (08) 8338 6616 </li>
             <li>After hours: 0488896868 </li>
             <li>Email: contactus@burnsidenailsandspa.com</li>
