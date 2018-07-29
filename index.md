@@ -24,9 +24,20 @@ pricing: price.md
    </div>
 
    <div  class="w3-col l4 w3-right">
-    <img src="{{ site.url }}/assets/images/newshop01.png" class="w3-round w3-image w3-right" alt="about us" width="400" height="400">
-    <img src="{{ site.url }}/assets/images/newshop02.png" class="w3-round w3-image w3-right" alt="about us" width="400" height="400">   
-    </div>
+    <div class="w3-content w3-section" style="max-width:500px" id="firstrow">
+          <img class="slideshow" src="{{ site.url }}/assets/images/newshop02.png"  width="500" height="300">
+          <img class="slideshow" src="{{ site.url }}/assets/images/newshop01.png"  width="500" height="300">
+          <img class="slideshow" src="{{ site.url }}/assets/images/newshop05.png"  width="500" height="300">
+          <img class="slideshow" src="{{ site.url }}/assets/images/newshop06.png"  width="500" height="300">
+    </div>        
+    <div class="w3-content w3-section" style="max-width:500px" id="secondrow">
+          <img class="slideshow" src="{{ site.url }}/assets/images/newshop07.png"  width="500" height="300">
+          <img class="slideshow" src="{{ site.url }}/assets/images/newshop08.png"  width="500" height="300">
+          <img class="slideshow" src="{{ site.url }}/assets/images/newshop09.png"  width="500" height="300">
+          <img class="slideshow" src="{{ site.url }}/assets/images/newshop10.png"  width="500" height="300">
+     </div>  
+   </div>
+   
 
   </div>
 
@@ -128,13 +139,13 @@ pricing: price.md
             Monday - Friday: 9am - 5:30pm <br>
             Thursday: 9am - 9pm <br>
             Saturday: 9am - 5pm <br>
-            Sunday : 11am - 9pm
+            Sunday : 11am - 5pm
             </li>            
             <li>Shop 5, 384-390 Greenhill Road, Glenside, SA, 5065</li>
             <li>Shop 2, 398 Greenhill Road, Glenside, SA 5065</li>
             <li>Phone:  (08) 8338 6616 </li>
             <li>After hours: 0488896868 </li>
-            <li>Email: contactus@burnsidenailsandspa.com</li>
+            <li>Email: customerservice@burnsidenailsandspa.com</li>
 	</ul>
   </div>
 
@@ -148,3 +159,32 @@ pricing: price.md
 
 <!-- End page content -->
 </div>
+
+<script>
+
+var index = 0;
+carousel();
+
+function carousel() {
+
+    var first = $("#firstrow").children();
+    var second = $("#secondrow").children();
+
+    if (index >= first.length) {index = 0}    
+    slideshow(first[index]);
+
+    setTimeout(slideshow(second[index]), 1000);
+
+    index++;  
+
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+function slideshow(element){
+  $(element).show();
+  $(element).siblings().hide();
+
+}
+
+</script>
+
